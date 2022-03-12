@@ -27,7 +27,7 @@ batchcount=0
 for fruitycluster in ${clusters}
 do
   ((batchcount++))
-  aws cloudformation create-stack --stack-name $fruitycluster --template-body file://./cfn-ambari-opsmasterclass.template-24.json --parameters ParameterKey=KeyName,ParameterValue=secloud --capabilities CAPABILITY_IAM
+  aws cloudformation create-stack --stack-name $fruitycluster --template-body file://./cfn-ambari-opsclass.template-24.json --parameters ParameterKey=KeyName,ParameterValue=secloud --capabilities CAPABILITY_IAM
   echo Initiated creation of $fruitycluster cluster
 # this is the sleep interval between instances
   sleep 5
