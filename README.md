@@ -140,10 +140,6 @@ You can create your own, or use a hosted version such as TitanPad. You should cr
 
 If you suddenly notice that your instances/cloudformations/etc have vanished from the AWS control panel, you may have to re-login.
 
-
-
-########
-
 ## Issues: Other
 
 #### Run commands in bulk on all nodes
